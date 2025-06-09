@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADAKAH - #adasayangada</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="adakah_logo.jpg" alt="ADAKAH Logo" class="logo-img">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#location" class="nav-link">Lokasi & Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Galeri</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">ADAKAH</h1>
+                <p class="hero-slogan">#adasayangada</p>
+                <p class="hero-description">Sejak 2020, ADAKAH hadir menyajikan beragam minuman segar, cemilan kekinian, dan hidangan utama yang menggugah selera. Temukan tempat nongkrong favoritmu di sini!</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">Lihat Menu Kami</a>
+                    <a href="#location" class="btn btn-secondary">Kunjungi Kami</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="adakah_cafe.jpg" alt="ADAKAH Cafe" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tentang ADAKAH</h2>
+                <p class="section-subtitle">Perjalanan kami sejak 2020</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>ADAKAH adalah brand kuliner yang berkomitmen menyajikan pengalaman bersantap terbaik dengan produk berkualitas dan suasana nyaman. Kami hadir untuk menjadi bagian dari momen spesial Anda.</p>
+                    <p>Berawal dari mimpi sederhana untuk menciptakan tempat nongkrong yang nyaman dengan hidangan lezat, kini ADAKAH telah berkembang menjadi dua cabang yang selalu ramai dikunjungi.</p>
+                </div>
+                <div class="about-image">
+                    <img src="adakah_outlet.jpg" alt="ADAKAH Outlet" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Seller Section -->
+    <section class="bestseller">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Best Seller Kami</h2>
+                <p class="section-subtitle">Produk favorit yang wajib dicoba</p>
+            </div>
+            <div class="bestseller-grid">
+                <div class="bestseller-card">
+                    <div class="card-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3 class="card-title">Cheese Oreo</h3>
+                    <p class="card-description">Perpaduan creamy keju dan renyahnya Oreo dalam setiap tegukan. Favorit sepanjang masa!</p>
+                    <span class="card-category">Minuman</span>
+                </div>
+                <div class="bestseller-card">
+                    <div class="card-icon">
+                        <i class="fas fa-cookie-bite"></i>
+                    </div>
+                    <h3 class="card-title">Bagget Brutalll Tsunami</h3>
+                    <p class="card-description">Cemilan manis nampol dengan bumbu rahasia yang bikin ketagihan.</p>
+                    <span class="card-category">Cemilan</span>
+                </div>
+                <div class="bestseller-card">
+                    <div class="card-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3 class="card-title">Mie Level</h3>
+                    <p class="card-description">Mie pedas dengan berbagai level kepedasan, siap menantang lidahmu. Pilih level favoritmu!</p>
+                    <span class="card-category">Makanan</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Menu Kami</h2>
+                <p class="section-subtitle">Beragam pilihan untuk setiap selera</p>
+            </div>
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="minuman">Minuman</button>
+                <button class="tab-btn" data-tab="cemilan">Cemilan</button>
+                <button class="tab-btn" data-tab="makanan">Makanan</button>
+            </div>
+            <div class="menu-content">
+                <div class="tab-content active" id="minuman">
+                    <h3 class="menu-category-title">Minuman Segar</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Cheese Oreo <span class="bestseller-badge">Best Seller</span></h4>
+                            <p>Perpaduan creamy keju dan renyahnya Oreo.</p>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Choco Crunchy</h4>
+                            <p>Sensasi cokelat renyah yang bikin nagih.</p>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Choco Avocado</h4>
+                            <p>Kombinasi alpukat dan cokelat yang creamy dan menyegarkan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="cemilan">
+                    <h3 class="menu-category-title">Cemilan Kekinian</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Bagget Brutalll Tsunami <span class="bestseller-badge">Favorit</span></h4>
+                            <p>Cemilan manis nampol dengan bumbu rahasia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="makanan">
+                    <h3 class="menu-category-title">Makanan Utama</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Mie Level</h4>
+                            <p>Mie pedas dengan berbagai level kepedasan.</p>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Nasi Goreng Merah</h4>
+                            <p>Nasi goreng khas dengan bumbu merah yang lezat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kunjungi Kami</h2>
+                <p class="section-subtitle">Dua lokasi strategis untuk Anda</p>
+            </div>
+            <div class="location-grid">
+                <div class="location-card">
+                    <h3 class="location-title">ADAKAH Cafe</h3>
+                    <div class="location-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Sebelah Selatan SDN 78 Bakke, Desa Ganra, Kecamatan Ganra, Kabupaten Soppeng</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <p>Setiap hari, 11.00 - 21.30 WITA</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/6285656750767" target="_blank">0856-5675-0767</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <h3 class="location-title">ADAKAH Outlet</h3>
+                    <div class="location-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Belakang SDN 7 Salotungo, perempatan, Box Putih (ADAKAH)</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <p>Setiap hari, 11.00 - 17.30 WITA</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/6282217416306" target="_blank">0822-1741-6306</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeri ADAKAH</h2>
+                <p class="section-subtitle">Lihat suasana dan produk kami</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="adakah_cafe.jpg" alt="ADAKAH Cafe Interior">
+                    <div class="gallery-overlay">
+                        <h4>ADAKAH Cafe</h4>
+                        <p>Suasana nyaman untuk bersantai</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="adakah_outlet.jpg" alt="ADAKAH Outlet">
+                    <div class="gallery-overlay">
+                        <h4>ADAKAH Outlet</h4>
+                        <p>Lokasi strategis di perempatan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ikuti Kami!</h2>
+                <p class="section-subtitle">Terhubung dengan ADAKAH di media sosial</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/adakahcafe2020" target="_blank" class="social-link instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>@adakahcafe2020</span>
+                </a>
+                <a href="https://www.instagram.com/adakah.soppeng" target="_blank" class="social-link instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>@adakah.soppeng</span>
+                </a>
+                <a href="https://www.tiktok.com/@adakahcafe2020" target="_blank" class="social-link tiktok">
+                    <i class="fab fa-tiktok"></i>
+                    <span>@adakahcafe2020</span>
+                </a>
+                <a href="https://www.facebook.com/share/adakahcafe" target="_blank" class="social-link facebook">
+                    <i class="fab fa-facebook"></i>
+                    <span>ADAKAH Cafe</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="adakah_logo.jpg" alt="ADAKAH Logo" class="footer-logo">
+                    <p class="footer-slogan">#adasayangada</p>
+                    <p>Sejak 2020, menyajikan pengalaman kuliner terbaik untuk Anda.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak Cepat</h4>
+                    <p><i class="fab fa-whatsapp"></i> Cafe: 0856-5675-0767</p>
+                    <p><i class="fab fa-whatsapp"></i> Outlet: 0822-1741-6306</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Jam Operasional</h4>
+                    <p>Cafe: 11.00 - 21.30 WITA</p>
+                    <p>Outlet: 11.00 - 17.30 WITA</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ADAKAH. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
